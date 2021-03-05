@@ -1,0 +1,109 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+nav {
+  background: rgb(79, 121, 238);
+  display: flex;
+  align-items: center;
+  min-height: 10vh !important;
+}
+
+nav {
+  min-height: 5vh;
+  position: fixed;
+  width: 100%;
+}
+nav .nav-link {
+  color: white;
+}
+
+.active {
+  background-color: rgb(97, 71, 243);
+  color: rgb(79, 121, 238);
+}
+.nav-link:hover {
+  color: blue;
+  background: white;
+}
+/* .signup-page{
+  background-color:rgb(153, 161, 204)
+  
+} */
+.form {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: auto;
+  margin: 24px 27% 18px 30%;
+}
+.heading {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: blue;
+}
+.form-control {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.form-required {
+  color: red;
+}
+.submit-btn {
+  margin-left: 39%;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.User-table {
+  width: 450px;
+  margin: auto;
+}
+tr,
+td,
+th {
+  padding: 2rem;
+}
+h1 {
+  margin: 5% 0 4% 0;
+  text-align: center;
+  color: blue;
+}
+table {
+  color: black;
+  background-color: blueviolet;
+}
+table {
+  margin: 0 15% 0 0;
+  color: black;
+  background-color: blueviolet;
+}
+.users-data {
+  margin: 0 0 0 13%;
+  color: black;
+}
+.usersdataheading {
+  margin: 2% 25% 1% 12%;
+  color: blue;
+}
+.Box1 {
+  /* background: red; */
+  width: 150px;
+  margin-left: 6px;
+  height: 127px;
+  cursor: pointer;
+  margin-bottom: 1%;
+}
+
+.head {
+  margin: 5% 0 4% 0;
+  text-align: center;
+  color: blue;
+}
+.box {
+  margin: 0% 0 4% 0;
+  text-align: center;
+  color: blue;
+}
