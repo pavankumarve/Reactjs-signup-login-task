@@ -11,6 +11,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import UsersData from './Components/UsersData'
 // import FormData from './Components/FormDataComponent'
 import Box from './Components/Box';
+import FormikSignup from './Components/FormikSignup';
+import FormikLogin from './Components/FormikLogin';
+
+
+
 
 
 function App() {
@@ -26,6 +31,9 @@ function App() {
           <Route path='/signup' component={Signup} />
           <Route path='/users' component={Users} />
           <Route path='/Box' component={Box} />
+          <Route path='/FormikSignup' component={FormikSignup} />
+          <Route path='/FormikLogin' component={FormikLogin}/>
+          
         </Switch>
       </div>
     </Router>

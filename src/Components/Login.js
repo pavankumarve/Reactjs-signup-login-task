@@ -7,8 +7,10 @@ class Login extends Component {
             email: '',
             password: ''
           
-        } 
+        }
+
     }
+    
 
     handleLogin = (event) => {
         event.preventDefault()
@@ -29,8 +31,9 @@ class Login extends Component {
             password: event.target.value
         }
         this.setState(newState)
-  } 
- 
+    }
+    
+    
    
 
     render() {
@@ -62,7 +65,7 @@ class Login extends Component {
 
                     {/* login button  */}
                     <div className='submit-btn'>
-                        <button type='submit' className='btn btn-primary' id='lbtn' >Login</button>
+                        <button type='submit' className='btn btn-primary' id='lbtn'  >Login</button>
                     </div>
                
                     

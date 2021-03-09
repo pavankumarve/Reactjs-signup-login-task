@@ -107,3 +107,16 @@ table {
   text-align: center;
   color: blue;
 }
+.a-link {
+  cursor: pointer;
+  text-decoration: solid;
+}
+.Formik-h1 {
+  margin: 0% 0 5% 0;
+  text-align: center;
+  color: blue;
+  padding: 6% 0 0 0;
+}
+.submit-btn-formik {
+  margin: 0 0 0 46%;
+}
